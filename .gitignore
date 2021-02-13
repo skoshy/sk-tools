@@ -1,0 +1,18 @@
+# Project dependencies
+.cache
+node_modules
+yarn-error.log
+tmp/
+
+.DS_Store
+Thumbs.db
+
+# Build directory
+.next
+
+# Export direction
+out/
+
+# VSCode Cruft
+.history
+.favorites.json
