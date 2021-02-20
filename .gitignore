@@ -9,6 +9,8 @@ Thumbs.db
 
 # Build directory
 .next
+build/
+dist/
 
 # Export direction
 out/

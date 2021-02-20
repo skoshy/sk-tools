@@ -1,0 +1,32 @@
+{
+  "name": "@sk-tools/boilerplate-nextjs",
+  "version": "0.1.0",
+  "description": "> TODO: description",
+  "author": "Stefan Koshy <noreply@skoshy.com>",
+  "homepage": "https://github.com/skoshy/sk-tools#readme",
+  "license": "MIT",
+  "main": "lib/boilerplate-nextjs.js",
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skoshy/sk-tools.git"
+  },
+  "scripts": {
+    "dev": "next dev -p 8001",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/skoshy/sk-tools/issues"
+  },
+  "peerDependencies": {
+    "next": "10.0.6",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+    "@sk-tools/component-library": "0.1.0",
+    "next": "10.0.6"
+  }
+}
